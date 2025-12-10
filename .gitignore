@@ -1,0 +1,48 @@
+# data files (raw too large for git)
+data/raw/
+
+# index files (rebuild from data)
+index/postings.pkl
+index/doc_map.json
+
+# keep meta for reference
+!index/meta.json
+!index/vocab.json
+
+# python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.installed.cfg
+
+# IDE
+.vscode/
+.idea/
+*.iml
+.project
+.pydevproject
+
+# vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# OS
+.DS_Store
+
+# test/coverage
+.coverage
+.tox
+nosetests.xml
+
+# uv
+uv.lock
