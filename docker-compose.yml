@@ -1,0 +1,9 @@
+services:
+  search-engine:
+    build: .
+    volumes:
+      # mount local data (not in git)
+      - ./data:/app/data
+      - ./index:/app/index
+    stdin_open: true
+    tty: true

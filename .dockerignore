@@ -1,0 +1,32 @@
+# data (mounted as volume)
+data/
+index/
+
+# git
+.git/
+.gitignore
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+uv.lock
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# docs
+README.md
+*.md
+
+# tests (not needed in production)
+tests/
+
+# scripts
+scripts/
