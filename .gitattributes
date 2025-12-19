@@ -1,0 +1,2 @@
+index/postings.pkl filter=lfs diff=lfs merge=lfs -text
+index/doc_map.json filter=lfs diff=lfs merge=lfs -text

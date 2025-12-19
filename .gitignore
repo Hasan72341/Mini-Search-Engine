@@ -1,9 +1,9 @@
 # data files (raw too large for git)
 data/raw/
 
-# index files (rebuild from data)
-index/postings.pkl
-index/doc_map.json
+# # index files (rebuild from data)
+# index/postings.pkl
+# index/doc_map.json
 
 # keep meta for reference
 !index/meta.json
