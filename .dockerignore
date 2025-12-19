@@ -22,8 +22,8 @@ uv.lock
 .DS_Store
 
 # docs
-README.md
 *.md
+!README.md
 
 # tests (not needed in production)
 tests/
